@@ -16,7 +16,7 @@ for (i = 0; i < 20; i++) {
     var m = map(radius, 0, 20, 0, maxLength)
     stroke(0);
     fill(m);
-    ellipse(5 + i * 20, 5 + j * 20, m, m);
+    ellipse(50 + i * 20, 50 + j * 20, m, m);
     }	
   }  
 }

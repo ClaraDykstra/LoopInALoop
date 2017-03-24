@@ -10,7 +10,7 @@ colorMode(HSB, 50);
 for (i = 0; i < 50; i++) {
   for (j = 0; j < 50; j++) {
     fill(i, j, 50);
-    rect(i * 10, j * 10, 10, 10);
+    rect(50 + i * 10, 50 + j * 10, 10, 10);
   }	
 }
 }
